@@ -53,6 +53,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: b44f3940c4940544a8c2c6aee5fa086f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 497bce989ac6fc44f8985d4df4fae31d, type: 2}
+    - target: {fileID: 9500000, guid: b44f3940c4940544a8c2c6aee5fa086f, type: 3}
       propertyPath: m_UpdateMode
       value: 1
       objectReference: {fileID: 0}
