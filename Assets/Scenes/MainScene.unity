@@ -321,6 +321,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &694633794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7830031419654180690, guid: 9b61c4d5ac4feea478257114922b9d29,
+    type: 3}
+  m_PrefabInstance: {fileID: 7629909282352750053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &694633799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7830031419654345586, guid: 9b61c4d5ac4feea478257114922b9d29,
@@ -4100,6 +4106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1744966766}
   - component: {fileID: 1744966765}
+  - component: {fileID: 1744966767}
   m_Layer: 0
   m_Name: GameEnding
   m_TagString: Untagged
@@ -4143,6 +4150,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744966767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744966764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e66adf643484084a860a03bec508586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 694633794}
+  exitBackgroundImageCanvasGroup: {fileID: 2084970282}
 --- !u!1 &1844179051
 GameObject:
   m_ObjectHideFlags: 0
