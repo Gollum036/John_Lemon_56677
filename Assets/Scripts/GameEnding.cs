@@ -45,6 +45,11 @@ public class GameEnding : MonoBehaviour
 
         imageCanvasGroup.alpha = m_Timer / fadeDuration;
 
+        if (!m_HasAudioPlayed)
+        {
+            audioSource.Play();
+            m_HasAudioPlayed = true;
+        }
         if (m_Timer > fadeDuration + displayImageDuration)
         {
             if (doRestart)
